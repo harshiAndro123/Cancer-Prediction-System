@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Cancer Prediction System</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/assets/img/favicon.png" rel="icon">
+  <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Maxim
+  * Template URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html">Canpre</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="static/assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#awareness">Awareness</a></li>
+          <li><a class="nav-link scrollto" href="#types">Types</a></li>
+          <li><a class="nav-link scrollto " href="#attributes">Attributes</a></li>
+          <li><a class="nav-link scrollto" href="#predict">Predict</a></li>
+          <li><a class="nav-link scrollto" href="#faq">FAQ's</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="container text-center text-md-left" data-aos="fade-up">
+      <h1>Welcome to Canpre</h1>
+      <h2>Health is very important! Everyone need to have regular checkups.
+        Check with us to know the likeliness of having cancer. 
+      </h2>
+      <p style="color: white;"> <b>Disclaimer:</b>This is a predictive model only. 
+        For a complete picture of your health, it's always best to see a doctor.</p>
+      <a href="#awareness" class="btn-get-started scrollto">Get Started</a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Awareness Section ======= -->
+    <section id="awareness" class="awareness">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xl-6 col-lg-7" data-aos="fade-right">
+            <img src="static/assets/img/about.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
+            <h3 data-aos="fade-up">What is cancer?</h3>
+            <p data-aos="fade-up">
+              Cancer is a group of diseases characterized by the uncontrolled growth and spread of abnormal cells.</p>
+              <p>These abnormal cells can invade and destroy healthy tissues.</p>
+              <p>There are many different types of cancer, each affecting a different part of the body.
+            </p>
+            <div class="icon-box" data-aos="fade-up">
+              <i class="bx bx-receipt"></i>
+              <h4>Risk Factors for Cancer:</h4>
+              <p>Age: Cancer risk increases with age.</p>
+                <p>Genetics: Some people inherit a higher risk of developing certain cancers from their family members.</p>
+                <p>Lifestyle choices: Smoking, excessive alcohol consumption, unhealthy diet, and lack of physical activity can increase cancer risk.</p>
+               <p> Environmental factors: Exposure to radiation, sunlight, and certain chemicals can contribute to cancer development.</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-cube-alt"></i>
+              <h4>Early Detection is Key:</h4>
+              <p>Early detection of cancer significantly improves the chances of successful treatment.</p>
+               <p> Be familiar with your body and report any unusual changes to a doctor.</p>
+               <p> Participate in recommended cancer screening tests for your age and risk factors.</p>
+               <p>hese tests may include mammograms for breast cancer, colonoscopies for colon cancer, and Pap smears for cervical cancer.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Awareness Section -->
+
+    <!-- ======= Steps Section ======= -->
+    <section id="types" class="types section-bg">
+      <div class="container">
+
+        <div class="row no-gutters">
+          <h2>Types of cancer</h2>
+<h4>There are more than 200 different types of cancer. Few most common types are as follows:</h4>
+          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in">
+            <span>01</span>
+            <h4>Breast Cancer</h4>
+            <p> This is the most common cancer among women. It starts in the breast tissue and can spread to other parts of the body.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="100">
+            <span>02</span>
+            <h4>Lung Cancer</h4>
+            <p>This is the leading cause of cancer death for both men and women. It starts in the lungs and can spread to other parts of the body.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="200">
+            <span>03</span>
+            <h4>Colon Cancer</h4>
+            <p>This is the third most common cancer in the United States. It starts in the colon or rectum and can spread to other parts of the body.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="300">
+            <span>04</span>
+            <h4>Prostate cancer</h4>
+            <p>This is the most common cancer among men. It starts in the prostate gland and can spread to other parts of the body.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="400">
+            <span>05</span>
+            <h4>Melanoma</h4>
+            <p>This is the most serious type of skin cancer. It starts in the melanocytes, which are the cells that give skin its color.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="500">
+            <span>06</span>
+            <h4>Leukemia</h4>
+            <p>This is a cancer of the blood and bone marrow. It starts in the white blood cells and can spread to other parts of the body.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Types Section -->
+
+    <!-- ======= Attributes Section ======= -->
+<section id="attributes" class="attributes section-bg">
+  <div class="container">
+
+    <div class="section-title" data-aos="fade-up">
+      <h2>Attributes</h2>
+      <p>This project aims to develop a machine learning model to predict the likelihood of cancer in a patient population. The model will utilize a dataset containing the following attributes:</p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
+        <div class="icon-box icon-box-pink">
+          <h4 class="title"><a href="">Age</a></h4>
+          <p class="description">This represents the patient's age in years. Age is a well-established risk factor for many cancers.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+        <div class="icon-box icon-box-cyan">
+          <h4 class="title"><a href="">Gender</a></h4>
+          <p class="description">This indicates the patient's gender (0: Male, 1: Female). Gender can influence the risk of certain cancers.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+        <div class="icon-box icon-box-green">
+          <h4 class="title"><a href="">BMI</a></h4>
+          <p class="description">This represents the patient's Body Mass Index (BMI), calculated based on weight and height. Obesity is a risk factor for several cancers.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
+        <div class="icon-box icon-box-blue">
+          <h4 class="title"><a href="">Smoking</a></h4>
+          <p class="description">This indicates whether the patient is a smoker (0: No, 1: Yes). Smoking is a major risk factor for lung cancer and other cancers.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
+        <div class="icon-box icon-box-pink">
+          <h4 class="title"><a href="">GeneticRisk</a></h4>
+          <p class="description">This represents the patient's genetic risk level for cancer (0: Low, 1: Medium, 2: High). Inherited genetic mutations can increase cancer risk.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+        <div class="icon-box icon-box-green">
+          <h4 class="title"><a href="">PhysicalActivity</a></h4>
+          <p class="description">This represents the number of hours per week the patient spends on physical activity. Regular physical activity can reduce cancer risk.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+        <div class="icon-box icon-box-red">
+          <h4 class="title"><a href="">AlcoholIntake</a></h4>
+          <p class="description">This represents the number of alcohol units consumed per week by the patient. Excessive alcohol consumption is a risk factor for some cancers.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
+        <div class="icon-box icon-box-blue">
+          <h4 class="title"><a href="">CancerHistory</a></h4>
+          <p class="description">This indicates whether the patient has a personal history of cancer (0: No, 1: Yes). A prior cancer diagnosis can increase the risk of developing another cancer.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Attributes Section -->
+
+
+    <!-- ======= Predict Section ======= -->
+<section id="predict" class="classify">
+  <div class="classify_container">
+    <div class="section-title">
+      <h2>Predict</h2>
+      <p>
+        Give the following values. To know more about them, please view the previous sections.
+        Give all the inputs. Don't miss any.
+      </p>
+    </div>
+
+    <form action="submit" method="post" style="text-align: center;">
+      <label for="Age">Age:</label>
+      <input type="number" id="Age" name="Age" min="20" max="80">
+      <br><br>
+
+      <label for="Gender">Gender:</label>
+      <input type="number" id="Gender" name="Gender" min="0" max="1">
+      <br><br>
+
+      <label for="BMI">BMI:</label>
+      <input type="number" id="BMI" name="BMI" min="15" max="40">
+      <br><br>
+
+      <label for="Smoking">Smoking:</label>
+      <input type="number" id="Smoking" name="Smoking" min="0" max="1">
+      <br><br>
+
+      <label for="GeneticRisk">Genetic Risk:</label>
+      <input type="number" id="GeneticRisk" name="GeneticRisk" min="0" max="2">
+      <br><br>
+
+      <label for="PhysicalActivity">Physical Activity:</label>
+      <input type="number" id="PhysicalActivity" name="PhysicalActivity" min="0" max="10">
+      <br><br>
+
+      <label for="AlcoholIntake">Alcohol Intake:</label>
+      <input type="number" id="AlcoholIntake" name="AlcoholIntake" min="0" max="5">
+      <br><br>
+
+      <label for="CancerHistory">Cancer History:</label>
+      <input type="number" id="CancerHistory" name="CancerHistory" min="0" max="1">
+      <br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  
+  <div style="text-align: center;">
+    <br><br>
+    You are {{result}} likely to have cancer. For further confirmation please go to the doctor.
+  </div>
+</section>
+<!-- End of Predict Section -->
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>F.A.Q</h2>
+          
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">What is cancer? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                  Cancer is a disease caused by abnormal cell growth that can spread to other parts of the body. These abnormal cells divide uncontrollably and can form tumors.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">What are the different types of cancer? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  There are many different types of cancer, named after the part of the body where they originate (e.g., breast cancer, lung cancer, skin cancer).                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">What causes cancer? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  The exact cause of cancer is not always known, but a combination of genetic and environmental factors can contribute to its development.                                  </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">What are the symptoms of cancer? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Symptoms of cancer can vary depending on the type and location of the cancer. General symptoms may include unexplained weight loss, fatigue, fever, pain, or changes in bowel or bladder habits.                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Is cancer contagious? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  No, cancer is not contagious. You cannot get cancer from another person through touch or casual contact.                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End F.A.Q Section -->
+
+  </main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="container" style="text-align: center;">
+    <h3>CANPRE</h3>
+    <p>Health is very important! Everyone need to have regular checkups.
+      Check with us to know the likeliness of having cancer..</p>
+    <div class="social-links">
+      <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+      <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+      <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+      <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+      <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+    </div>
+    <div class="copyright">
+      &copy; Copyright <strong><span>CANPRE</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/ -->
+      Designed by <a href="https://bootstrapmade.com/">Harshini Kothamasu</a>
+    </div>
+  </div>
+</footer><!-- End Footer -->
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+ <!-- Vendor JS Files -->
+ <script src="static/assets/vendor/aos/aos.js"></script>
+ <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+ <script src="static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+ <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+ <script src="static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+ <script src="static/assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="static/assets/js/main.js"></script>
+
+</body>
+
+</html>
+  
+
+          
+
+  
+
+  
